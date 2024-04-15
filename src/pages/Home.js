@@ -16,7 +16,6 @@ const Home = () => {
   const InputRef2 = useRef(null);
 
   const params = getParams();
-console.log(params)
   const [rate, setRate] = useState(1);
   const [firstToken, setToken1] = useState(params.token1||'ETH1');
   const [secondToken, setToken2] = useState(params.token2||'ETH1');
