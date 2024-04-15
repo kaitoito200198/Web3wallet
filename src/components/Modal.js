@@ -47,7 +47,7 @@ const Modal = ({ setTokens, token }) => {
       {showModal ? (
         <>
           <div className="absolute flex justify-center items-center overflow-x-hidden overflow-y top-[100] inset-0 z-50 outline-none focus:outline-none rounded-7xl bg-gray-300">
-            <div className="relative my-6 mx-auto  w-[26%] ">
+            <div className="relative my-6 mx-auto  w-[550px] ">
               <div className="border-0 rounded-2xl shadow-lg relative flex flex-col  bg-white outline-none focus:outline-none">
                 <div className="flex items-start justify-between p-5 rounded-t ">
                   <h3 className="text-3xl font=semibold">Select a token</h3>
